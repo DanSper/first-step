@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8">
+  <meta name="keyword" content="blad">
+  <meta name ="description" content="about"> 
+  <link href="outlines.css" rel ="stylesheet">
+  <link rel="stylesheet" href="outlines.css">
+  <title> Заголовок страницы </title>
+ </head>
+ <body>
+  <header>
+  </header>
+  <main>
+  <nav> Навигация на какой то источник информации </nav>
+  <h1> Заголовок 1 </h1>
+  <h2> Заголовок 2 </h2>
+  <article> Какая то интересная история. <p>Еще одна важная инфа. И еще одна важная инфа</p> </article>
+  <aside> Здесь могла быть ваша реклама </aside>
+  </main>
+  <footer>
+  </footer>
+ </body>
+</html>
+ 
