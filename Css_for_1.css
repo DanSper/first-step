@@ -1,68 +1,98 @@
 ﻿header {
-  text-align: center;
-   
+   text-align: center;
 }
 
 nav {
-  margin: 0px;
+  margin: 0 auto;
   padding: 0;
   border-bottom: 1px solid #aaaaaa;
+  width:  943px;
+  text-decoration: none; 
 }
 
-.navigation li{
-  
-   display: inline;
-   margin-right: 150px; 
-   margin-left: 13px;
-  
+a {
+  text-decoration: none; 
+  color: #000000;
 }
 
-#navbar {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-#navbar li { display: inline; }
+.navigation {
+   display: flex;
+   justify-content:  space-between;     
+   list-style-type: none;  
+   margin: 0 auto;
+   margin-left: -40px;   
+} 
 
+.denis, h1 p{
+  display: flex;
+  padding-bottom: 0;
+  justify-content:  space-between;
+  align-items: flex-end;
+  width: 943px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.longText  {
+   margin-bottom: 40px;
+}
+
+.vertical {   
+    writing-mode: tb-rl;                   /*не получилось поменять направление ru|eng*/ 
+    margin-right: 0;
+    margin-bottom: 40px;
+}
 
 main {
   text-align: center;
   padding: 40px;
 }
 
+.basesText { 
+  margin: 0 auto;
+  background: #F6F6F6;
+  width:  100%;
+  margin-bottom: 50px;
+  padding: 50px 0 50px 0;
+}
+
+.basesText h2, p {
+  
+}
+
 .headerImg {
    text-align: center;
+   margin: 0 auto;
 }
 
-p {
-  text-align: center;
-}
-
-footer h1 {
-  text-align: center;
-}
 
 .imgs {
   display: flex;
-   justify-content: center;
- 
+   justify-content: space-between;
+  margin: 0 auto;
+  width: 1020px;
 }
 
 .imgs img {
   padding: 50px;
-  margin-bottom: -90px;
+  margin-bottom: -90px;  
 }
+
 
 .stars  { 
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   
 }
 
 .FS, .SS, .TS {
   padding: 30px;
-  margin-top: -30px;
- 
+  margin-top: -70px;
+  width: 943px;
 }
 
 .adobe {
@@ -71,8 +101,9 @@ footer h1 {
 }
 
 .adobe p {
-  padding: 63px;
-  margin: 0;
+  padding: 60px;
+  margin: 0 auto;
   font-size: 15px;
+  width: 943px;
 
 }
