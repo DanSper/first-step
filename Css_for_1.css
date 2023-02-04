@@ -68,6 +68,9 @@ main {
    margin: 0 auto;
 }
 
+.skills {
+   padding: 60px;
+}
 
 .imgs {
   display: flex;
