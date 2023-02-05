@@ -74,14 +74,14 @@ main {
 
 .imgs {
   display: flex;
-   justify-content: space-between;
+  justify-content: space-between;
   margin: 0 auto;
   width: 1020px;
 }
 
 .imgs img {
   padding: 50px;
-  margin-bottom: -90px;  
+  margin-bottom: -90px;
 }
 
 
@@ -92,7 +92,7 @@ main {
   
 }
 
-.FS, .SS, .TS {
+.logo {
   padding: 30px;
   margin-top: -70px;
   width: 943px;
