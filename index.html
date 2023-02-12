@@ -1,90 +1,71 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
- <head>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="utf-8">
-  <title> Первая верстка </title>
- </head>
- <body> 
-  <header> 
-    <nav class="menu"> 
-		<ul class="navigation">
-			<li><a href="#">Home</a></li> 
-			<li><a href="#">About me</a></li>    
-			<li><a href="#">Skills</a></li>   
-			<li><a href="#">Portfolio</a></li>    
-			<li><a href="#">Contacts</a></li>
-		</ul>
-	</nav>
-</header>
 
-<!-- BEM  -->
 
- <div class="denis">
-   <h1> 
-    Denis<br> Novik 
-   </h1>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+		<title> Первая верстка </title>
+	</head>
+	
+	
+	<body> 
+		<header> 
+			<nav class="menu"> 
+			<ul class="navigation">
+				<li><a href="#">Home</a></li> 
+				<li><a href="#">About me</a></li>    
+				<li><a href="#">Skills</a></li>   
+				<li><a href="#">Portfolio</a></li>    
+				<li><a href="#">Contacts</a></li>
+			</ul>
+			</nav>
+		</header>
+		
+		<main>
+		<div class="denis">
+			<h1 class="denis_novik"> 
+				Denis<br> Novik 
+			</h1>
       <p class="longText">UX | UI designer<br>24 years old, Minsk</p>
       <p class="vertical"> ru|eng</p>
-     </div>
-   
-   <div class="headerImg">
-   <img class="imgs imgs--big" src="./images/Clean_man.jpg"   height: 387px  width: 943px>
-   </div>
-  
-  <main>
-  <div class="basesText">
-    <h2> About me </h2>
-    <p>Hi, I'm Denis – UX/UI designer from Minsk. 
-		<br>I'm interested in design and everything connected with it. </p>
-		 <p>I'm studying at courses "Web and mobile design 
-		<br>interfaces" in IT-Academy.</p>
-		 <p>Ready to implement excellent projects
-		<br> with wonderful people.</p>
-  </div>
-
-<h2 class="skills"> Skills </h2>
-    <p> I work in such programs as </p>
-
- <div class="imgs"> 
-    <a href="#"><img src="./images/Vector.jpg"  width: 89.07px  height: 88.41px></a>    
-    <a href="#"><img src="./images/Vector-1.jpg"   height: 89.21px  width: 88.57px> </a>
-    <a href="#"><img src="./images/Vector-2.jpg"   height: 89.21px  width: 88.57px></a>
-</div>  
-
-<div class="adobe">
-	<p> Adobe <br> Photoshop </p>
-	<p> Adobe <br> Illustrator </p>
-	<p> Adobe <br> After Effects </p>
-</div>
-
-
-
-<div class="stars">
-    <div class="logo logo--FS">
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star-1.jpg"   height: 26px  width: 26px>
-    </div>
-   <div class="logo logo--SS">
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star-1.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star-1.jpg"   height: 26px  width: 26px>
-    </div>
-   <div class="logo logo--TS">
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star.jpg"   height: 26px  width: 26px>
-	   <img src="./images/Star-1.jpg"   height: 26px  width: 26px>
-    </div>
-  </div>
-  </main>
- </body>
+		</div>  
+		<div class="headerImg">
+			<img class="imgs imgs--big" src="./images/Clean_man.jpg"   height: 387px  width: 943px>
+		</div> 		
+			<div class="baseText">
+				<h2 class="about_me"> About me </h2>
+				<p>Hi, I'm Denis – UX/UI designer from Minsk. 
+				<br>I'm interested in design and everything connected with it.</p>
+				<p>I'm studying at courses "Web and mobile design 
+				<br>interfaces" in IT-Academy.</p>
+				<p>Ready to implement excellent projects
+				<br> with wonderful people.</p>
+			</div>
+			<h2 class="skills">Skills</h2>
+			<p class="under_skills">I work in such programs as</p>		
+			<div class="down_part logo"> 
+				<a href="#"><img src="./images/logo_adobe_photoshop.svg"  alt="adobe photoshop logo"></a>    
+				<a href="#"><img src="./images/logo_adobe_illustrator.svg"  alt="adobe illustrator logo"> </a>
+				<a href="#"><img src="./images/logo_adobe_after_effects.svg" alt="adobe after effects logo"></a>
+				<a href="#"><img class="figma" src="./images/logo_figma.svg" alt="figma logo"></a>
+			</div>  
+			<div class="down_part name_logo">
+				<img src="./images/text_adobe_photoshop.svg" class="adobe_photoshop">
+				<img src="./images/text_adobe_illustrator.svg" class="adobe_illustrator">
+				<img src="./images/text_adobe_after_effects.svg" class="adobe_after_effects">
+				<img src="./images/text_figma.svg">
+			</div>
+			<div class="down_part stars">
+				<img src="./images/stars.svg" class="adobe_photoshop">
+				<img src="./images/stars_for_adobe_illustrator.svg" class="adobe_illustrator">
+				<img src="./images/stars.svg" class="adobe_after_effects two_last_stars">
+				<img src="./images/stars.svg" class="two_last_stars">	
+			</div> 	
+		</main>
+	</body>
+	
+	
 </html>
 
 

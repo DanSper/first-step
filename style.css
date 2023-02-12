@@ -1,5 +1,5 @@
 ﻿header {
-   text-align: center;
+	text-align: center;
 }
 
 nav {
@@ -16,11 +16,11 @@ a {
 }
 
 .navigation {
-   display: flex;
-   justify-content:  space-between;     
-   list-style-type: none;  
-   margin: 0 auto;
-   margin-left: -40px;   
+	display: flex;
+	justify-content:  space-between;     
+	list-style-type: none;  
+	margin: 0 auto;
+	margin-left: -40px;   
 } 
 
 .denis, h1 p{
@@ -32,81 +32,102 @@ a {
   margin: 0 auto;
 }
 
-h1 {
-  margin-bottom: 40px;
+.denis_novik {
+	margin-bottom: 40px;
+	font-size: 34px;
+	line-height: 42.09px;
 }
 
 .longText  {
-   margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .vertical {   
-    writing-mode: tb-rl;                   /*не получилось поменять направление ru|eng*/ 
-    margin-right: 0;
-    margin-bottom: 40px;
+	writing-mode: tb-rl;                   /*не получилось поменять направление ru|eng*/ 
+	margin-right: 0;
+	margin-bottom: 40px;
 }
-
-main {
-  text-align: center;
-  padding: 40px;
-}
-
-.basesText { 
-  margin: 0 auto;
-  background: #F6F6F6;
-  width:  100%;
-  margin-bottom: 50px;
-  padding: 50px 0 50px 0;
-}
-
-.basesText h2, p {
-  
-}
-
 .headerImg {
-   text-align: center;
-   margin: 0 auto;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+.baseText {
+	text-align: center;
+	width: 943px;
+	margin: 0 auto;
+	background: #F6F6F6;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 50px 0 50px 0;
+}
+
+.about_me {
+	font-size: 29px;
+	line-height: 36px;
 }
 
 .skills {
-   padding: 60px;
+	text-align: center;
+	font-size: 29px;
+	line-height: 36px;
+	margin-bottom: 60px;
 }
 
-.imgs {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 1020px;
+.under_skills {
+	text-align: center;
+	font-size: 18px;
+	line-height: 21.83px;
+	margin-bottom: 84px;
 }
 
-.imgs img {
-  padding: 50px;
-  margin-bottom: -90px;
+.down_part {
+	display: flex;
+}
+
+.logo {
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 766px;
+    
+}
+
+.name_logo {
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 753px;
+	padding-top: 20px
 }
 
 
 .stars  { 
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 855px;
+	padding: 42px;
+	position: relative;
+	left: 1px;
 }
 
-.logo {
-  padding: 30px;
-  margin-top: -70px;
-  width: 943px;
+.adobe_photoshop {
+	position: relative;
+	left: 1px;
 }
 
-.adobe {
-  justify-content: center;
-  display: flex;
+.adobe_illustrator {
+	position: relative;
+	left: 7px;
 }
 
-.adobe p {
-  padding: 60px;
-  margin: 0 auto;
-  font-size: 15px;
-  width: 943px;
-
+.adobe_after_effects {
+	position: relative;
+	left: 5px;
 }
+
+.two_last_stars {
+	position: relative;
+	left: 16px;	
+}
+
