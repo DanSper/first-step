@@ -4,6 +4,7 @@
 
 	<head>
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="normalize.css">
 		<meta charset="utf-8">
 		<title> Первая верстка </title>
 	</head>
@@ -12,55 +13,63 @@
 	<body> 
 		<header> 
 			<nav class="menu"> 
-			<ul class="navigation">
-				<li><a href="#">Home</a></li> 
-				<li><a href="#">About me</a></li>    
-				<li><a href="#">Skills</a></li>   
-				<li><a href="#">Portfolio</a></li>    
-				<li><a href="#">Contacts</a></li>
-			</ul>
+				<ul class="menu__navigation">
+					<li><a href="#" class="link link__color">Home</a></li> 
+					<li><a href="#" class="link">About me</a></li>    
+					<li><a href="#" class="link">Skills</a></li>   
+					<li><a href="#" class="link">Portfolio</a></li>    
+					<li><a href="#" class="link">Contacts</a></li>
+				</ul>
 			</nav>
 		</header>
 		
-		<main>
-		<div class="denis">
-			<h1 class="denis_novik"> 
-				Denis<br> Novik 
-			</h1>
-      <p class="longText">UX | UI designer<br>24 years old, Minsk</p>
-      <p class="vertical"> ru|eng</p>
-		</div>  
-		<div class="headerImg">
-			<img class="imgs imgs--big" src="./images/Clean_man.jpg"   height: 387px  width: 943px>
-		</div> 		
-			<div class="baseText">
-				<h2 class="about_me"> About me </h2>
-				<p>Hi, I'm Denis – UX/UI designer from Minsk. 
-				<br>I'm interested in design and everything connected with it.</p>
-				<p>I'm studying at courses "Web and mobile design 
-				<br>interfaces" in IT-Academy.</p>
-				<p>Ready to implement excellent projects
-				<br> with wonderful people.</p>
+		<main>			
+			<div class="up-part">  <!-- возможно и не было смысла объеденять  эти элементы в один блок-->
+				<div class="up-part__item item">
+					<h1 class="item__denis-novik">Denis<br>Novik</h1>
+					<p class="item__long-text">UX | UI designer<br>24 years old, Minsk</p>
+					<p class="item__vertical">ru<span class="color-eng"> | eng</span></p>
+				</div>  
+				<div class="up-part__header-img">
+					<img src="./asserts/images/Clean_man.jpg">
+				</div>
 			</div>
-			<h2 class="skills">Skills</h2>
-			<p class="under_skills">I work in such programs as</p>		
-			<div class="down_part logo"> 
-				<a href="#"><img src="./images/logo_adobe_photoshop.svg"  alt="adobe photoshop logo"></a>    
-				<a href="#"><img src="./images/logo_adobe_illustrator.svg"  alt="adobe illustrator logo"> </a>
-				<a href="#"><img src="./images/logo_adobe_after_effects.svg" alt="adobe after effects logo"></a>
-				<a href="#"><img class="figma" src="./images/logo_figma.svg" alt="figma logo"></a>
-			</div>  
-			<div class="down_part name_logo">
-				<img src="./images/text_adobe_photoshop.svg" class="adobe_photoshop">
-				<img src="./images/text_adobe_illustrator.svg" class="adobe_illustrator">
-				<img src="./images/text_adobe_after_effects.svg" class="adobe_after_effects">
-				<img src="./images/text_figma.svg">
+			<div class="main-text">
+				<h2 class="main-text__title">About me</h2>
+				<div class="main-text__text-about-me">
+					<p>Hi, I'm Denis – UX/UI designer from Minsk. 
+					<br>I'm interested in design and everything connected with it.</p>
+					<p>I'm studying at courses "Web and mobile design 
+					<br>interfaces" in IT-Academy.</p>
+					<p>Ready to implement excellent projects
+					<br> with wonderful people.</p>
+				</div>
 			</div>
-			<div class="down_part stars">
-				<img src="./images/stars.svg" class="adobe_photoshop">
-				<img src="./images/stars_for_adobe_illustrator.svg" class="adobe_illustrator">
-				<img src="./images/stars.svg" class="adobe_after_effects two_last_stars">
-				<img src="./images/stars.svg" class="two_last_stars">	
+			<div class="skills">
+				<h2 class="skills__title">Skills</h2>
+				<p class="skills__description">I work in such programs as</p>		
+				<div class="skills__abilities abilities">
+					<div class="abilities__ability-item item">
+						<a href="#"><img src="./asserts/images/logo_adobe_photoshop.svg" class="item__logo" alt="adobe photoshop logo"></a>
+						<p class="item__text">Adobe<br>Photoshop</p>
+						<img src="./asserts/images/stars.svg" class="item__stars">
+					</div>
+					<div class="abilities__ability-item item">
+						<a href="#"><img src="./asserts/images/logo_adobe_illustrator.svg" class="item__logo" alt="adobe illustrator logo"></a>
+						<p class="item__text">Adobe<br>Illustrator</p>
+						<img src="./asserts/images/stars_for_adobe_illustrator.svg" class="item__stars">
+					</div>
+					<div class="abilities__ability-item item">
+						<a href="#"><img src="./asserts/images/logo_adobe_after_effects.svg" class="item__logo" alt="adobe after effects logo"></a>
+						<p class="item__text">Adobe<br>After Effects</p>
+						<img src="./asserts/images/stars.svg" class="item__stars">
+					</div>
+					<div class="abilities__ability-item item">
+						<a href="#"><img src="./asserts/images/logo_figma.svg" class="item__logo" alt="figma logo"></a>
+						<p class="item__text">Figma</p>
+						<img src="./asserts/images/stars.svg" class="item__stars item__stars--selected">  
+					</div>
+				</div> 
 			</div> 	
 		</main>
 	</body>
