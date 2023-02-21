@@ -1,29 +1,48 @@
-﻿header {
-   text-align: center;
+﻿@font-face {
+	font-family: "Gilroy-Medium";
+	src: url("asserts/fonts/Gilroy-Medium/Gilroy-Medium.woff2") format("woff2"),
+	url("asserts/fonts/Gilroy-Medium/Gilroy-Medium.woff") format("woff");
+	font-weight: 500px;
+	font-style: normal;
+	font-display: swap;
 }
 
-nav {
+@font-face {
+	font-family: "Gilroy-Bold";
+	src: url("asserts/fonts/Gilroy-Bold/Gilroy-Bold.woff2") format("woff2"),
+	url("asserts/fonts/Gilroy-Bold/Gilroy-Bold.woff") format("woff");
+	font-weight: 700px;
+	font-style: normal;
+	font-display: swap;
+}
+
+.menu {
   margin: 0 auto;
-  padding: 0;
-  border-bottom: 1px solid #aaaaaa;
-  width:  943px;
-  text-decoration: none; 
-}
-/* Testing */
-a {
-  text-decoration: none; 
-  color: #000000;
+  padding: 32px 0;
+  border-bottom: 1px solid #828282;
+  width:  943px;  
 }
 
-.navigation {
-   display: flex;
-   justify-content:  space-between;     
-   list-style-type: none;  
-   margin: 0 auto;
-   margin-left: -40px;   
+
+.link:hover {
+	color: #070707;
+	}
+	
+.link {
+	font-family: Gilroy-Bold;  
+  color: #828282;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.menu__navigation {
+	display: flex;
+	justify-content:  space-between;     
+	margin: 0 auto;
+	padding: 0; 
 } 
 
-.denis, h1 p{
+.up-part__item {
   display: flex;
   padding-bottom: 0;
   justify-content:  space-between;
@@ -32,81 +51,114 @@ a {
   margin: 0 auto;
 }
 
-h1 {
-  margin-bottom: 40px;
+.item__denis-novik {
+	font-family: Gilroy-Bold;   
+	font-size: 47px;
+	line-height: 59px;
+	margin-bottom: 40px;
 }
 
-.longText  {
-   margin-bottom: 40px;
+.item__long-text  {
+	font-family: Gilroy-Medium;		
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 40px;
 }
 
-.vertical {   
-    writing-mode: tb-rl;                   /*не получилось поменять направление ru|eng*/ 
-    margin-right: 0;
-    margin-bottom: 40px;
+.item__vertical {   
+	transform: rotate(-90deg);
+	font-family: Gilroy-Bold;		
+	font-size: 16px;
+	color: #828282;
+	line-height: 20px;	
+	margin-bottom: 37px;
+	padding-top: 34px
 }
 
-main {
-  text-align: center;
-  padding: 40px;
+.item__vertical--button-color-eng:hover {
+	color: #070707;
 }
 
-.basesText { 
-  margin: 0 auto;
-  background: #F6F6F6;
-  width:  100%;
-  margin-bottom: 50px;
-  padding: 50px 0 50px 0;
+.item__vertical--button-color-ru:hover {
+	color: #070707;
 }
 
-.basesText h2, p {
-  
+.up-part__header-img {
+	text-align: center;
+	margin: 0 auto;
+	height: auto;
 }
 
-.headerImg {
-   text-align: center;
-   margin: 0 auto;
+.main-text {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	background: #F6F6F6;
+	margin-top: 60px;
+	padding: 50px 0 50px 0;
+}
+
+.main-text__title {
+	font-family: Gilroy-Medium;
+	font-size: 34px;
+	line-height: 42px;
+}
+
+.main-text__text-about-me {
+	font-family: Gilroy-Medium;   
+	size: 18px;
+	line-height: 21px;
 }
 
 .skills {
-   padding: 60px;
+	margin-top: 65px;
+	text-align: center;	
 }
 
-.imgs {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 1020px;
+.skills__title {
+	font-family: Gilroy-Bold;   
+	font-size: 34px;
+	line-height: 42px;
+	margin-bottom: 60px;
 }
 
-.imgs img {
-  padding: 50px;
-  margin-bottom: -90px;
+.skills__description {
+	font-family: Gilroy-Medium;  
+	font-size: 18px;
+	line-height: 21.83px;
+}
+
+.abilities {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.item {
+	margin-top: 25px;
+}
+
+.abilities__ability-item {
+	padding: 41px;
+}
+
+.item__logo {
+	height: auto;
+}
+
+.item__text {
+	font-family: Gilroy-Bold;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.item__stars {
+	height: auto;
+	width: 166px;
+}
+
+.item__stars--selected {
+	margin-top: 17px;	
 }
 
 
-.stars  { 
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  
-}
-
-.logo {
-  padding: 30px;
-  margin-top: -70px;
-  width: 943px;
-}
-
-.adobe {
-  justify-content: center;
-  display: flex;
-}
-
-.adobe p {
-  padding: 60px;
-  margin: 0 auto;
-  font-size: 15px;
-  width: 943px;
-
-}
