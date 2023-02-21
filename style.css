@@ -23,16 +23,19 @@
   width:  943px;  
 }
 
+.link {
+	font-family: Gilroy-Bold, Arial, sans-serif;  
+  color: #828282;
+	font-size: 18px;
+	line-height: 22px;
+}
 
 .link:hover {
 	color: #070707;
 	}
-	
-.link {
-	font-family: Gilroy-Bold;  
-  color: #828282;
-	font-size: 18px;
-	line-height: 22px;
+
+.link__selected {
+	color: #070707;
 }
 
 .menu__navigation {
@@ -52,36 +55,41 @@
 }
 
 .item__denis-novik {
-	font-family: Gilroy-Bold;   
+	font-family: Gilroy-Bold, Arial, sans-serif;   
 	font-size: 47px;
 	line-height: 59px;
 	margin-bottom: 40px;
 }
 
 .item__long-text  {
-	font-family: Gilroy-Medium;		
+	font-family: Gilroy-Medium, Arial, sans-serif;		
 	font-size: 18px;
 	line-height: 22px;
 	margin-bottom: 40px;
 }
 
 .item__vertical {   
-	transform: rotate(-90deg);
-	font-family: Gilroy-Bold;		
-	font-size: 16px;
-	color: #828282;
-	line-height: 20px;	
-	margin-bottom: 37px;
+	transform: rotate(-90deg);	
+	margin-bottom: 39px;
 	padding-top: 34px
 }
 
-.item__vertical--button-color-eng:hover {
+.language {
+	font-family: Gilroy-Bold, Arial, sans-serif;		
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #828282;
+}
+
+.language:hover {
 	color: #070707;
 }
 
-.item__vertical--button-color-ru:hover {
+.language--selected {
 	color: #070707;
 }
+
 
 .up-part__header-img {
 	text-align: center;
@@ -99,13 +107,13 @@
 }
 
 .main-text__title {
-	font-family: Gilroy-Medium;
+	font-family: Gilroy-Medium, Arial, sans-serif;
 	font-size: 34px;
 	line-height: 42px;
 }
 
 .main-text__text-about-me {
-	font-family: Gilroy-Medium;   
+	font-family: Gilroy-Medium, Arial, sans-serif;   
 	size: 18px;
 	line-height: 21px;
 }
@@ -116,14 +124,14 @@
 }
 
 .skills__title {
-	font-family: Gilroy-Bold;   
+	font-family: Gilroy-Bold, Arial, sans-serif;   
 	font-size: 34px;
 	line-height: 42px;
 	margin-bottom: 60px;
 }
 
 .skills__description {
-	font-family: Gilroy-Medium;  
+	font-family: Gilroy-Medium, Arial, sans-serif;  
 	font-size: 18px;
 	line-height: 21.83px;
 }
@@ -147,7 +155,7 @@
 }
 
 .item__text {
-	font-family: Gilroy-Bold;
+	font-family: Gilroy-Bold, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 17px;
 }
