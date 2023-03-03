@@ -34,6 +34,10 @@
 	color: #070707;
 }
 
+.link__selected {
+	color: #070707;
+}
+
 .menu__navigation {
 	display: flex;
 	justify-content:  space-between;     
