@@ -22,17 +22,16 @@
   border-bottom: 1px solid #828282;
   width:  943px;  
 }
-
-
-.link:hover {
-	color: #070707;
-	}
 	
 .link {
 	font-family: Gilroy-Bold;  
   color: #828282;
 	font-size: 18px;
 	line-height: 22px;
+}
+
+.link:hover {
+	color: #070707;
 }
 
 .menu__navigation {
@@ -66,20 +65,20 @@
 }
 
 .item__vertical {   
-	transform: rotate(-90deg);
-	font-family: Gilroy-Bold;		
+	transform: rotate(-90deg);	
+	font-family: Gilroy-Bold, Arial, sans-serif;		
 	font-size: 16px;
 	color: #828282;
 	line-height: 20px;	
 	margin-bottom: 37px;
-	padding-top: 34px
+	padding-top: 55px
 }
 
-.item__vertical--button-color-eng:hover {
+.item__vertical:hover {
 	color: #070707;
 }
 
-.item__vertical--button-color-ru:hover {
+.item__vertical--button-color-eng {
 	color: #070707;
 }
 
@@ -161,4 +160,77 @@
 	margin-top: 17px;	
 }
 
+.portfolio {
+	text-align: center;
+	padding: 60px;
+	margin: 0 auto;
+	background: #F6F6F6;
+}
 
+.portfolio__title {
+	font-family: Gilroy-Bold, Arial, sans-serif;
+	font-size: 34px;
+	line-height: 42px;
+}
+
+.item__image {
+	padding-top: 40px;
+	Width: 936.24px;
+	Height: auto;
+}
+
+.item__description {
+	font-family: Gilroy-Medium, Arial, sans-serif;  
+	font-size: 18px;
+	line-height: 21.83px;
+	text-decoration-line: underline;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	color: #070707;
+}
+
+.contacts {
+	text-align: center;
+	margin: 90px 0;
+}
+
+.contacts__title {
+	font-family: Gilroy-Bold, Arial, sans-serif;
+	font-size: 34px;
+	line-height: 42px;
+}
+
+.contacts__send-message {
+	font-family: Gilroy-Bold, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 22.28px;
+	background-color:  #070707;
+	color: #FFFFFF;
+	border-radius: 32px;
+	margin: 19px;
+	padding: 5px 16px;
+}
+
+.contacts__send-message:hover {
+	color: #828282;
+}
+
+.logos-footer__logo {
+	height: auto;
+	margin-top: 83px;
+	margin-bottom: 30px;
+	padding: 0 35px;
+}
+
+.contacts__description {
+	font-family: Gilroy-Bold, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.logos-footer__text {
+	font-family: Gilroy-Medium, Arial, sans-serif;  
+	font-size: 14px;
+	line-height: 17px;
+	color: #828282;
+}
