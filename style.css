@@ -21,20 +21,22 @@
   padding: 32px 0;
   border-bottom: 1px solid #828282;
   width:  943px;  
+	position: fixed;
+	left: 541px;
 }
-
-.link {
+	
+.menu__link {
 	font-family: Gilroy-Bold, Arial, sans-serif;  
   color: #828282;
 	font-size: 18px;
 	line-height: 22px;
 }
 
-.link:hover {
+.menu__link:hover {
 	color: #070707;
 }
 
-.link__selected {
+.menu__link--selected {
 	color: #070707;
 }
 
@@ -52,6 +54,7 @@
   align-items: flex-end;
   width: 943px;
   margin: 0 auto;
+	padding-top: 84px;
 }
 
 .item__denis-novik {
@@ -70,23 +73,19 @@
 
 .item__vertical {   
 	transform: rotate(-90deg);	
-	margin-bottom: 39px;
-	padding-top: 34px
-}
-
-.language {
 	font-family: Gilroy-Bold, Arial, sans-serif;		
 	font-size: 16px;
-	line-height: 20px;
-	text-transform: uppercase;
 	color: #828282;
+	line-height: 20px;	
+	margin-bottom: 37px;
+	padding-top: 55px
 }
 
-.language:hover {
+.item__vertical:hover {
 	color: #070707;
 }
 
-.language--selected {
+.item__vertical--button-color-eng {
 	color: #070707;
 }
 
@@ -96,7 +95,7 @@
 	height: auto;
 }
 
-.main-text {
+.about-me {
 	text-align: center;
 	width: 100%;
 	margin: 0 auto;
@@ -105,20 +104,20 @@
 	padding: 50px 0 50px 0;
 }
 
-.main-text__title {
+.about-me__title {
 	font-family: Gilroy-Medium, Arial, sans-serif;
 	font-size: 34px;
 	line-height: 42px;
 }
 
-.main-text__text-about-me {
-	font-family: Gilroy-Medium, Arial, sans-serif;     
+.about-me__text {
+	font-family: Gilroy-Medium, Arial, sans-serif;   
 	size: 18px;
 	line-height: 21px;
 }
 
 .skills {
-	margin-top: 65px;
+	padding-top: 65px;
 	text-align: center;	
 }
 
@@ -142,11 +141,12 @@
 }
 
 .item {
-	margin-top: 25px;
+	
 }
 
 .abilities__ability-item {
 	padding: 41px;
+	margin-top: 25px;
 }
 
 .item__logo {
@@ -168,4 +168,83 @@
 	margin-top: 17px;	
 }
 
+.portfolio {
+	text-align: center;
+	padding: 60px;
+	margin: 0 auto;
+	background: #F6F6F6;
+}
 
+.portfolio__title {
+	font-family: Gilroy-Bold, Arial, sans-serif;
+	font-size: 34px;
+	line-height: 42px;
+}
+
+.item__image {
+	padding-top: 40px;
+	width: 100%;
+	max-width: 943px;
+	height: auto;
+}
+
+.item__description {
+	font-family: Gilroy-Medium, Arial, sans-serif;  
+	font-size: 18px;
+	line-height: 21.83px;
+	text-decoration-line: underline;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	color: #070707;
+}
+
+.contacts {
+	text-align: center;
+	margin: 90px 0;
+}
+
+.contacts__title {
+	font-family: Gilroy-Bold, Arial, sans-serif;
+	font-size: 34px;
+	line-height: 42px;
+}
+
+.contacts__send-message {
+	font-family: Gilroy-Bold, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 22.28px;
+	background-color:  #070707;
+	color: #FFFFFF;
+	border-radius: 32px;
+	margin: 19px;
+	padding: 5px 16px;
+}
+
+.contacts__send-message:hover {
+	color: #828282;
+}
+
+.contacts__logos-footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 83px;
+	margin-bottom: 30px;
+}
+
+.logos-footer__logo {
+	height: auto;
+	padding: 0 35px;
+}
+
+.contacts__description {
+	font-family: Gilroy-Bold, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.contacts__text {
+	font-family: Gilroy-Medium, Arial, sans-serif;  
+	font-size: 14px;
+	line-height: 17px;
+	color: #828282;
+}
